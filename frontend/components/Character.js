@@ -13,9 +13,9 @@ function Character({ characterName, planetName }) {
     <div className="character-card" onClick={togglePlanet}>
       {/* Use the same markup with the same attributes as in the mock */}
       <h3 className="character-name">{characterName}</h3>
-      <p>
+      {showPlanet ? <p>
         Planet: <span className="character-planet">{planetName}</span>
-      </p>
+      </p> : !showPlanet}
     </div>
   );
 }
