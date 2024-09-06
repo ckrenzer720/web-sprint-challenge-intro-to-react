@@ -42,7 +42,7 @@ To help you complete the task, several members of your team will provide you wit
 <details>
   <summary>Click to read</summary>
 
-  ---
+---
 
 This is a **full-stack web application** that comprises both back-end and front-end components. If deployed to production, the back-end part would run in the cloud (think Amazon Web Services or Azure), while the front-end -a React app- would execute inside the user's web browser (like Chrome for Android, or Firefox for desktop).
 
@@ -58,7 +58,7 @@ As a front-end engineer, your focus is mainly on the files that load **on the us
 
 My job assisting you with local setup of the app is done! You will speak to our designer next.
 
-  ---
+---
 
 </details>
 
@@ -69,7 +69,7 @@ My job assisting you with local setup of the app is done! You will speak to our 
 <details>
   <summary>Click to read</summary>
 
-  ---
+---
 
 Collaboration between a designer and a web developer can be very powerful. Designers excel at creating amazing user experiences and have a keen eye for beauty and usability, while developers are experts in the underlying technology of the product.
 
@@ -81,7 +81,7 @@ There are other constraints and requirements that must be followed, such as stic
 
 Fortunately, you have [a very detailed mock](https://bloominstituteoftechnology.github.io/W_U2_S6_sprint_challenge/) that you can load in your browser and inspect closely, which will make your job much easier.
 
-  ---
+---
 
 </details>
 
@@ -92,7 +92,7 @@ Fortunately, you have [a very detailed mock](https://bloominstituteoftechnology.
 <details>
   <summary>Click to read</summary>
 
-  ---
+---
 
 Hey! Let's make sure you're up to speed with your **action items so far**.
 
@@ -125,10 +125,10 @@ Once you have the responses from Endpoints A and B stored inside variables, chec
       id: 31,
       name: "Tatooine",
       // etc
-    }
+    },
   },
   // other characters
-]
+];
 ```
 
 Once you have the data in the right shape stored in App state, you can **start working on your `/frontend/components/Character.js` component** that takes in the information about a single character via props. You will use this component inside App.js, looping over the data held in App state and rendering a Character at each iteration of the loop.
@@ -139,7 +139,7 @@ Note how for each card, the planet information is not available on page load. A 
 
 Reach out if you get too stuck, and have fun!
 
-  ---
+---
 
 </details>
 
